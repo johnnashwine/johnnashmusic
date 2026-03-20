@@ -2,9 +2,20 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { Play, Pause, SkipBack, SkipForward, Volume2, VolumeX, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const tracks = [
+export const tracks = [
   { title: "When I Remember", src: "/audio/When-I-Remember.mp3" },
   { title: "Nothing to Lose", src: "/audio/Nothing-to-Lose.mp3" },
+  { title: "Starlight Tao", src: "/audio/Starlight-Tao.mp3" },
+  { title: "Starlight Tao (Reprise)", src: "/audio/Starlight-Tao-Reprise.mp3" },
+  { title: "Karma Puppet", src: "/audio/Karma-Puppet.mp3" },
+  { title: "I Love You From Here", src: "/audio/I-Love-You-From-Here.mp3" },
+  { title: "Heavy Light", src: "/audio/Heavy-Light.mp3" },
+  { title: "Grace", src: "/audio/Grace.mp3" },
+  { title: "This Time 2", src: "/audio/This-Time-2.mp3" },
+  { title: "This Time 2 (Take 5)", src: "/audio/This-Time-2-Take-5.mp3" },
+  { title: "Holden's Dream", src: "/audio/Holdens-Dream-3.m4a" },
+  { title: "Carry On", src: "/audio/Carry-On.mp3" },
+  { title: "Free", src: "/audio/Free.m4a" },
 ];
 
 export const AudioPlayer = () => {
