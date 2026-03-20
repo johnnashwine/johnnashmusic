@@ -4,12 +4,18 @@ import disco1 from "@/assets/disco-1.jpg";
 import disco2 from "@/assets/disco-2.jpg";
 import disco3 from "@/assets/disco-3.jpg";
 import disco4 from "@/assets/disco-4.jpg";
+import disco5 from "@/assets/disco-5.jpg";
+import disco6 from "@/assets/disco-6.jpg";
+import disco7 from "@/assets/disco-7.jpg";
 
 const albums = [
   { title: "Zarathustra's Romance", year: "2011", image: disco1, link: "https://www.youtube.com/watch?v=qg7lk7Dhj8w" },
   { title: "Heavy Light", year: "2014", image: disco2, link: "https://www.youtube.com/watch?v=FTc2nYZqh2c" },
   { title: "Singles", year: "2016", image: disco3, link: "https://www.youtube.com/watch?v=ZwSknm4QqkY" },
   { title: "Coming Soon", year: "", image: disco4, link: "#" },
+  { title: "Album 5", year: "", image: disco5, link: "#" },
+  { title: "Sabrina Starlightning", year: "", image: disco6, link: "#" },
+  { title: "Sabrina Starlightning (Full)", year: "", image: disco7, link: "#" },
 ];
 
 export const Discography = () => (
