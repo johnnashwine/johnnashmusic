@@ -37,8 +37,8 @@ export const ContactSection = () => {
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-accent" />
-              <a href="mailto:johnny@johnnashmusic.com" className="hover:text-accent transition-colors">
-                johnny@johnnashmusic.com
+              <a href="mailto:johnnashmusic@gmail.com" className="hover:text-accent transition-colors">
+                johnnashmusic@gmail.com
               </a>
             </div>
           </div>
