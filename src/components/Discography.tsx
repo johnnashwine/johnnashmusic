@@ -1,13 +1,15 @@
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
-import album1 from "@/assets/album-1.jpg";
-import album2 from "@/assets/album-2.jpg";
-import album3 from "@/assets/album-3.jpg";
+import disco1 from "@/assets/disco-1.jpg";
+import disco2 from "@/assets/disco-2.jpg";
+import disco3 from "@/assets/disco-3.jpg";
+import disco4 from "@/assets/disco-4.jpg";
 
 const albums = [
-  { title: "Zarathustra's Romance", year: "2011", image: album1, link: "https://www.youtube.com/watch?v=qg7lk7Dhj8w" },
-  { title: "Heavy Light", year: "2014", image: album2, link: "https://www.youtube.com/watch?v=FTc2nYZqh2c" },
-  { title: "New Album", year: "2016", image: album3, link: "https://www.youtube.com/watch?v=ZwSknm4QqkY" },
+  { title: "Zarathustra's Romance", year: "2011", image: disco1, link: "https://www.youtube.com/watch?v=qg7lk7Dhj8w" },
+  { title: "Heavy Light", year: "2014", image: disco2, link: "https://www.youtube.com/watch?v=FTc2nYZqh2c" },
+  { title: "Singles", year: "2016", image: disco3, link: "https://www.youtube.com/watch?v=ZwSknm4QqkY" },
+  { title: "Coming Soon", year: "", image: disco4, link: "#" },
 ];
 
 export const Discography = () => (
