@@ -14,7 +14,7 @@ const Index = () => (
       <HeroSection />
       <Discography />
       <Testimonials />
-      <Shows />
+      <Biography />
       <Biography />
       <ContactSection />
     </main>
