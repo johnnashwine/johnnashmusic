@@ -6,6 +6,7 @@ import { Shows } from "@/components/Shows";
 import { Biography } from "@/components/Biography";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
+import { AudioPlayer } from "@/components/AudioPlayer";
 
 const Index = () => (
   <>
@@ -19,6 +20,7 @@ const Index = () => (
       <ContactSection />
     </main>
     <Footer />
+    <AudioPlayer />
   </>
 );
 
