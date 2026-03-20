@@ -59,7 +59,7 @@ export const AudioPlayer = () => {
       setIsPlaying(true);
       setVisible(true);
     };
-    return () => delete (window as any).__playTrack;
+    return () => { delete (window as any).__playTrack; };
   }, []);
 
   return (
