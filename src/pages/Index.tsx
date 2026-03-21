@@ -2,7 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { Discography } from "@/components/Discography";
 import { TracksSection } from "@/components/TracksSection";
-import { Testimonials } from "@/components/Testimonials";
+import { VideoSection } from "@/components/VideoSection";
 import { Biography } from "@/components/Biography";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -15,6 +15,7 @@ const Index = () => (
       <HeroSection />
       <Discography />
       <TracksSection />
+      <VideoSection />
       <Biography />
       <ContactSection />
     </main>
