@@ -16,6 +16,17 @@ export const tracks = [
   { title: "Holden's Dream", src: "/audio/Holdens-Dream-3.m4a" },
   { title: "Carry On", src: "/audio/Carry-On.mp3" },
   { title: "Free", src: "/audio/Free.m4a" },
+  { title: "Puppet Strings", src: "/audio/01-Puppet-Strings.mp3" },
+  { title: "Curtis Street (with Lisa Brown)", src: "/audio/03-Curtis-Street-with-Lisa-Brown.mp3" },
+  { title: "Something We Can't Name", src: "/audio/03-Something-we-Cant-Name.mp3" },
+  { title: "This Time Around (Live)", src: "/audio/06-This-Time-Around-Live.mp3" },
+  { title: "I Never Left", src: "/audio/11-I-Never-Left-Mastered.mp3" },
+  { title: "Blue Note", src: "/audio/Blue-Note.mp3" },
+  { title: "Cinderella", src: "/audio/Cinderella.mp3" },
+  { title: "Going Down Slow", src: "/audio/Going-Down-Slow.m4a" },
+  { title: "Indiana in Winter", src: "/audio/Indiana-in-Winter.mp3" },
+  { title: "Papaya", src: "/audio/Papaya.mp3" },
+  { title: "When I'm 30 (Live)", src: "/audio/When-Im-30-Live.mp3" },
 ];
 
 export const AudioPlayer = () => {
